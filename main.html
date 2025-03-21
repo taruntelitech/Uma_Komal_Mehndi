@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Sanwariya Seth Mehndi Art Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #fff8f0;
+        }
+
+        header {
+            background: #6a4c93;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://i.imgur.com/7vNbCjG.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .gallery {
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+    
+        .gallery img {
+    width: 100%;
+    height: 350px; /* ya jitna aapko fixed height chahiye */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .about, .contact {
+            padding: 50px;
+            background: #f5f5f5;
+            text-align: center;
+        }
+
+        footer {
+    background: #6a4c93;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Shree Sanwariya Seth Mehndi Art Design</h1>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Beautiful Mehndi Designs for Every Occasion</h1>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <img src="1.jpg" alt="Design 1">
+        <img src="2.jpg" alt="Design 2">
+        <img src="3.jpg" alt="Design 3">
+        <img src="4.jpg" alt="Design 4">
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Mehndi Design Studio! We are passionate about creating stunning mehndi designs that make your special moments even more memorable.</p>
+        <h3>Our Artists</h3>
+        <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+            <h4>Uma Teli</h4>
+            <p>Uma Teli is a professional mehndi designer with over 4 years of experience in, mehndi art. Known for her intricate and detailed work, Uma brings creativity and elegance to every design.</p>
+            
+            <h4>Komal Teli</h4>
+            <p>Komal Teli specializes in traditional and modern mehndi patterns. With a passion for artistry and a keen eye for detail, Komal has created unique designs for weddings, festivals, and special events, making every client feel special.</p>
+        </div>
+    </section>
+    
+
+    <footer>
+        Made with  by TarunTeliTech
+    </footer>
+    
+</body>
+
+</html>
