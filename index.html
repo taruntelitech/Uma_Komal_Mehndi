@@ -26,7 +26,7 @@
         }
 
         .hero {
-            background: url('imagejpg') no-repeat center center/cover;
+            background: url('image.jpg') no-repeat center center/cover;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -35,21 +35,19 @@
             text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
         }
 
-       
         .hero h1 {
-    font-size: 3rem;
-    text-align: center;
-}
+            font-size: 3rem;
+            text-align: center;
+        }
 
-/* Mobile screen ke liye */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-        padding: 0 15px;
-        line-height: 1.2;
-    }
-
-
+        /* Mobile screen ke liye */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+                padding: 0 15px;
+                line-height: 1.2;
+            }
+        }
 
         .gallery {
             padding: 50px;
@@ -58,15 +56,14 @@
             gap: 20px;
         }
 
-    
         .gallery img {
-    width: 100%;
-    height: 350px; /* ya jitna aapko fixed height chahiye */
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
+            width: 100%;
+            height: 350px; /* ya jitna aapko fixed height chahiye */
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
 
         .gallery img:hover {
             transform: scale(1.05);
@@ -79,14 +76,13 @@
         }
 
         footer {
-    background: #6a4c93;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
+            background: #6a4c93;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
     </style>
 </head>
 
@@ -97,6 +93,7 @@
         <nav>
             <a href="#gallery">Gallery</a>
             <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -117,18 +114,23 @@
         <h3>Our Artists</h3>
         <div style="max-width: 800px; margin: 0 auto; text-align: left;">
             <h4>Uma Teli</h4>
-            <p>Uma Teli is a professional mehndi designer with over 4 years of experience in, mehndi art. Known for her intricate and detailed work, Uma brings creativity and elegance to every design.</p>
+            <p>Uma Teli is a professional mehndi designer with over 4 years of experience in mehndi art. Known for her intricate and detailed work, Uma brings creativity and elegance to every design.</p>
             
             <h4>Komal Teli</h4>
             <p>Komal Teli specializes in traditional and modern mehndi patterns. With a passion for artistry and a keen eye for detail, Komal has created unique designs for weddings, festivals, and special events, making every client feel special.</p>
         </div>
     </section>
-    
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Follow us on Instagram:</p>
+        <p><a href="https://instagram.com/tere_instagram_id" target="_blank" style="color: #6a4c93; font-weight: bold;">@tere_instagram_id</a></p>
+    </section>
 
     <footer>
-        Made with  by TarunTeliTech
+        Made with ❤️ by TarunTeliTech
     </footer>
-    
+
 </body>
 
 </html>
